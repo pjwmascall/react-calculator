@@ -1,6 +1,6 @@
 # React Calculator Testing Lab
 
-A PDA assignment performing unit and integration testing on a calculator app built in React using Jest and Cypress
+A PDA assignment performing unit and integration testing on a calculator app built in React using Jest, Enzyme and Cypress
 
 ### Run tests
 
