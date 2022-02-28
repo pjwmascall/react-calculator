@@ -5,7 +5,7 @@ A PDA assignment performing unit and integration testing on a calculator app bui
 ### Run tests
 
 #### `npm test`
-Runs unit tests
+Runs unit tests with Jest and Enzyme
 
 #### `npm run test:e2e`
-Runs end-to-end tests (must have app open on http://localhost:3000 to run)
+Opens Cypress test suite (must have app open on http://localhost:3000)
