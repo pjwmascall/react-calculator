@@ -8,4 +8,7 @@ A PDA assignment performing unit and integration testing on a calculator app bui
 Runs unit tests with Jest and Enzyme
 
 #### `npm run test:e2e`
-Opens Cypress test suite (must have app open on http://localhost:3000)
+Opens Cypress test suite (must have React app open on http://localhost:3000)
+
+#### `npm start`
+Starts React app on http://localhost:3000
