@@ -84,11 +84,14 @@ function App() {
     setRunningTotal(parseFloat(previousTotal) / parseFloat(number));
   }
 
-
   return (
     <div className="container">
     <div className="calculator">
-      <div id="running-total" className="display">{ runningTotal }</div>
+      <div id="running-total" className="display">
+        { 
+          (runningTotal === Infinity) ? "Math error" : runningTotal
+        }
+      </div>
       <KeyPad 
       handleNumber={numberClick} 
       handleOperator={operatorClick} 
