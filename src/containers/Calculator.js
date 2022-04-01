@@ -89,7 +89,7 @@ function App() {
     <div className="calculator">
       <div id="running-total" className="display">
         { 
-          (runningTotal === Infinity) ? "Math error" : runningTotal
+          (runningTotal === Infinity || runningTotal === -Infinity) ? "Math error" : runningTotal
         }
       </div>
       <KeyPad 
